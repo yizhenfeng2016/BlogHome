@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="关于, 一阵风 计算机 物理 测试">
-    <meta name="description" content="本科 | 物理学 | 测试">
+    <meta name="description" content="本科 | 应用物理 | 测试">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -223,7 +223,7 @@
         <div class="logo-name">一阵风</div>
         <div class="logo-desc">
             
-            本科 | 物理学 | 测试
+            本科 | 应用物理 | 测试
             
         </div>
     </div>
@@ -516,7 +516,17 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/BlogHome/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/BlogHome/tags">3</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
@@ -536,12 +546,22 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/BlogHome/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/BlogHome/tags">3</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
                                 <div class="title">一阵风</div>
-                                <div class="career">本科 | 计算机科学与技术 | 网络安全</div>
+                                <div class="career">本科 | 应用物理 | 测试</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/yizhenfeng2016/" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -617,7 +637,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">The harder you work, the luckier you will be</div>
+                <div class="introduction center-align" data-aos="fade-up">The harder you work, the luckier you will be.</div>
 
                 <style type="text/css">
     #posts-chart,
@@ -660,7 +680,7 @@
     let postsOption = {
         title: {
             text: '文章发布统计图',
-            top: -5,
+            top: 1,
             x: 'center'
         },
         tooltip: {
@@ -707,7 +727,7 @@
     let categoriesOption = {
         title: {
             text: '文章分类统计图',
-            top: -4,
+            top: 1,
             x: 'center'
         },
         tooltip: {
@@ -720,7 +740,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"Python篇","value":1},{"name":"工具篇","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -737,14 +757,14 @@
     let tagsOption = {
         title: {
             text: 'TOP10 标签统计图',
-            top: -5,
+            top: 1,
             x: 'center'
         },
         tooltip: {},
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["BeautifulReport","redis","Centos7"]
             }
         ],
         yAxis: [
@@ -757,7 +777,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -873,6 +893,24 @@
     <div class="other-skills chip-container" data-aos="zoom-in-up">
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
+            
+            
+            <a href="/BlogHome/tags/BeautifulReport/">
+                <span class="chip center-align waves-effect waves-light chip-default">BeautifulReport</span>
+            </a>
+            
+            
+            
+            <a href="/BlogHome/tags/redis/">
+                <span class="chip center-align waves-effect waves-light chip-default">redis</span>
+            </a>
+            
+            
+            
+            <a href="/BlogHome/tags/Centos7/">
+                <span class="chip center-align waves-effect waves-light chip-default">Centos7</span>
+            </a>
+            
             
         </div>
     </div>
@@ -1276,7 +1314,7 @@ $(function () {
     <script src="/BlogHome/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="/BlogHome/libs/aos/aos.js"></script>
     <script src="/BlogHome/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js"></script>
+    <script src="/BlogHome/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/BlogHome/js/matery.js"></script>
 
     <!-- Baidu Analytics -->

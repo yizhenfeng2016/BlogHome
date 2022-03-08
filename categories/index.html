@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="分类, 一阵风 计算机 物理 测试">
-    <meta name="description" content="本科 | 物理学 | 测试">
+    <meta name="description" content="本科 | 应用物理 | 测试">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -223,7 +223,7 @@
         <div class="logo-name">一阵风</div>
         <div class="logo-desc">
             
-            本科 | 物理学 | 测试
+            本科 | 应用物理 | 测试
             
         </div>
     </div>
@@ -506,7 +506,41 @@
             </div>
             <div class="tag-chips">
                 
-                你目前还没有对文章进行分类.
+                
+                
+                <a href="/BlogHome/categories/Python%E7%AF%87/" title="Python篇: 1">
+                  <div class="moleskine-wrapper">
+                      <div class="moleskine-notebook">
+                          <div class="chip notebook-cover center-align waves-effect waves-light
+                           chip-default "
+                                  style="background-color: #5ACEC0;">                                               
+                              <div class="notebook-skin
+                                   chip-default "
+                                  >Python篇                                  
+                              </div>
+                          </div>
+                          <div class="notebook-page dotted"></div>
+                      </div>
+                  </div>
+                </a>
+                
+                
+                <a href="/BlogHome/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/" title="工具篇: 1">
+                  <div class="moleskine-wrapper">
+                      <div class="moleskine-notebook">
+                          <div class="chip notebook-cover center-align waves-effect waves-light
+                           chip-default "
+                                  style="background-color: #E056D0;">                                               
+                              <div class="notebook-skin
+                                   chip-default "
+                                  >工具篇                                  
+                              </div>
+                          </div>
+                          <div class="notebook-page dotted"></div>
+                      </div>
+                  </div>
+                </a>
+                
                 
             </div>
         </div>
@@ -622,6 +656,63 @@
         overflow: hidden;
     }
     </style>
+
+    
+    <style type="text/css">
+    #category-radar {
+        width: 100%;
+        height: 360px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="category-radar" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/BlogHome/libs/echarts/echarts.min.js"></script>
+<script type="text/javascript">
+    let radarChart = echarts.init(document.getElementById('category-radar'));
+
+    
+
+    let option = {
+        title: {
+            left: 'center',
+            text: '文章分类雷达图',
+            textStyle: {
+                fontWeight: 500,
+                fontSize: 22
+            }
+        },
+        tooltip: {},
+        radar: {
+            name: {
+                textStyle: {
+                    color: '#3C4858'
+                }
+            },
+            indicator: [{"name":"Python篇","max":2},{"name":"工具篇","max":2}],
+            nameGap: 5,
+            center: ['50%','55%'],
+            radius: '66%'
+        },
+        series: [{
+            type: 'radar',
+            color: ['#3ecf8e'],
+            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+            data : [
+                {
+                    value : [1,1],
+                    name : '文章分类数量'
+                }
+            ]
+        }]
+    };
+
+    radarChart.setOption(option);
+</script>
 
     
 
@@ -918,7 +1009,7 @@ $(function () {
     <script src="/BlogHome/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="/BlogHome/libs/aos/aos.js"></script>
     <script src="/BlogHome/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js"></script>
+    <script src="/BlogHome/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/BlogHome/js/matery.js"></script>
 
     <!-- Baidu Analytics -->

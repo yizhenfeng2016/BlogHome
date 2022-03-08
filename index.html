@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="一阵风 计算机 物理 测试">
-    <meta name="description" content="本科 | 物理学 | 测试">
+    <meta name="description" content="本科 | 应用物理 | 测试">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -223,7 +223,7 @@
         <div class="logo-name">一阵风</div>
         <div class="logo-desc">
             
-            本科 | 物理学 | 测试
+            本科 | 应用物理 | 测试
             
         </div>
     </div>
@@ -664,6 +664,42 @@
                     
 
                     
+                        <link rel="stylesheet" href="/BlogHome/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
+    
+    <div class="title center-align">
+        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;精彩视频
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video"
+                     style="height: 400px;"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/BlogHome/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'false' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: '/BlogHome/medias/videos/demo.mp4#%20%E5%BF%85%E5%A1%AB',
+                pic: '/BlogHome/medias/videos/demo-pic.png',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
+
+                    
 
                     
                     <div id="recommend-sections" class="recommend">
@@ -691,7 +727,7 @@
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021332.jpg" class="responsive-img" alt="漏洞扫描工具--AppScan和Nessus">
+                            <img src="/BlogHome/medias/featureimages/16.jpg" class="responsive-img" alt="漏洞扫描工具--AppScan和Nessus">
                             
                             <span class="card-title">漏洞扫描工具--AppScan和Nessus</span>
                         </div>
@@ -728,7 +764,7 @@ https://pan.baidu.com/s/1LhVlrLawEC-_nsC
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014458.jpg" class="responsive-img" alt="Centos7 安装后修改网络">
+                            <img src="/BlogHome/medias/featureimages/3.jpg" class="responsive-img" alt="Centos7 安装后修改网络">
                             
                             <span class="card-title">Centos7 安装后修改网络</span>
                         </div>
@@ -767,7 +803,7 @@ BOOTPROTO
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021245.jpg" class="responsive-img" alt="直接用命令启动docker的镜像">
+                            <img src="/BlogHome/medias/featureimages/16.jpg" class="responsive-img" alt="直接用命令启动docker的镜像">
                             
                             <span class="card-title">直接用命令启动docker的镜像</span>
                         </div>
@@ -802,7 +838,7 @@ BOOTPROTO
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021038.jpg" class="responsive-img" alt="测试知识点之操作系统考察">
+                            <img src="/BlogHome/medias/featureimages/12.jpg" class="responsive-img" alt="测试知识点之操作系统考察">
                             
                             <span class="card-title">测试知识点之操作系统考察</span>
                         </div>
@@ -838,7 +874,7 @@ BOOTPROTO
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928012539.jpg" class="responsive-img" alt="Nginx部署Vue项目">
+                            <img src="/BlogHome/medias/featureimages/9.jpg" class="responsive-img" alt="Nginx部署Vue项目">
                             
                             <span class="card-title">Nginx部署Vue项目</span>
                         </div>
@@ -881,7 +917,7 @@ npm run build:stage
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928011708.jpg" class="responsive-img" alt="安装HC开源物业系统版本（前后端分离）">
+                            <img src="/BlogHome/medias/featureimages/2.jpg" class="responsive-img" alt="安装HC开源物业系统版本（前后端分离）">
                             
                             <span class="card-title">安装HC开源物业系统版本（前后端分离）</span>
                         </div>
@@ -918,7 +954,7 @@ sql_mode = O
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014319.jpg" class="responsive-img" alt="Centos7 安装redis">
+                            <img src="/BlogHome/medias/featureimages/10.jpg" class="responsive-img" alt="Centos7 安装redis">
                             
                             <span class="card-title">Centos7 安装redis</span>
                         </div>
@@ -939,13 +975,29 @@ sql_mode = O
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                一阵风
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/BlogHome/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/" class="post-category">
+                                    工具篇
+                                </a>
+                                
                                 
                             </span>
                         </div>
                     </div>
 
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/BlogHome/tags/redis/">
+                            <span class="chip bg-color">redis</span>
+                        </a>
+                        
+                        <a href="/BlogHome/tags/Centos7/">
+                            <span class="chip bg-color">Centos7</span>
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -956,7 +1008,7 @@ sql_mode = O
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021744.jpg" class="responsive-img" alt="禅道开源版安装（包括mysql安装--使用tar.gz）">
+                            <img src="/BlogHome/medias/featureimages/15.jpg" class="responsive-img" alt="禅道开源版安装（包括mysql安装--使用tar.gz）">
                             
                             <span class="card-title">禅道开源版安装（包括mysql安装--使用tar.gz）</span>
                         </div>
@@ -995,7 +1047,7 @@ sql_mode = O
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928012539.jpg" class="responsive-img" alt="centos7 防火墙操作及开放端口">
+                            <img src="/BlogHome/medias/featureimages/2.jpg" class="responsive-img" alt="centos7 防火墙操作及开放端口">
                             
                             <span class="card-title">centos7 防火墙操作及开放端口</span>
                         </div>
@@ -1036,7 +1088,7 @@ firewall-cmd --zone=public --add-port
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021038.jpg" class="responsive-img" alt="top和jstack查看java进程日志（包括线程）">
+                            <img src="/BlogHome/medias/featureimages/19.jpg" class="responsive-img" alt="top和jstack查看java进程日志（包括线程）">
                             
                             <span class="card-title">top和jstack查看java进程日志（包括线程）</span>
                         </div>
@@ -1085,7 +1137,7 @@ d
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013834.jpg" class="responsive-img" alt="查看java命令之jps">
+                            <img src="/BlogHome/medias/featureimages/15.jpg" class="responsive-img" alt="查看java命令之jps">
                             
                             <span class="card-title">查看java命令之jps</span>
                         </div>
@@ -1126,7 +1178,7 @@ jps -mlv 查看当前机器上运行的java进程(包名 + main method的参数 
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013346.png" class="responsive-img" alt="查看java进程之jmap">
+                            <img src="/BlogHome/medias/featureimages/5.jpg" class="responsive-img" alt="查看java进程之jmap">
                             
                             <span class="card-title">查看java进程之jmap</span>
                         </div>
@@ -1481,7 +1533,7 @@ $(function () {
     <script src="/BlogHome/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="/BlogHome/libs/aos/aos.js"></script>
     <script src="/BlogHome/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js"></script>
+    <script src="/BlogHome/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/BlogHome/js/matery.js"></script>
 
     <!-- Baidu Analytics -->
