@@ -64,9 +64,9 @@
     <category term="Linux篇" scheme="https://yizhenfeng2016.github.io/categories/Linux%E7%AF%87/"/>
     
     
-    <category term="Centos7" scheme="https://yizhenfeng2016.github.io/tags/Centos7/"/>
-    
     <category term="network" scheme="https://yizhenfeng2016.github.io/tags/network/"/>
+    
+    <category term="Centos7" scheme="https://yizhenfeng2016.github.io/tags/Centos7/"/>
     
   </entry>
   
@@ -194,9 +194,9 @@
     <category term="Linux篇" scheme="https://yizhenfeng2016.github.io/categories/Linux%E7%AF%87/"/>
     
     
-    <category term="Redis" scheme="https://yizhenfeng2016.github.io/tags/Redis/"/>
-    
     <category term="Centos7" scheme="https://yizhenfeng2016.github.io/tags/Centos7/"/>
+    
+    <category term="Redis" scheme="https://yizhenfeng2016.github.io/tags/Redis/"/>
     
   </entry>
   
