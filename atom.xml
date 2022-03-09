@@ -64,9 +64,9 @@
     <category term="Linux篇" scheme="https://yizhenfeng2016.github.io/categories/Linux%E7%AF%87/"/>
     
     
-    <category term="network" scheme="https://yizhenfeng2016.github.io/tags/network/"/>
-    
     <category term="Centos7" scheme="https://yizhenfeng2016.github.io/tags/Centos7/"/>
+    
+    <category term="network" scheme="https://yizhenfeng2016.github.io/tags/network/"/>
     
   </entry>
   
@@ -194,9 +194,9 @@
     <category term="Linux篇" scheme="https://yizhenfeng2016.github.io/categories/Linux%E7%AF%87/"/>
     
     
-    <category term="Centos7" scheme="https://yizhenfeng2016.github.io/tags/Centos7/"/>
-    
     <category term="Redis" scheme="https://yizhenfeng2016.github.io/tags/Redis/"/>
+    
+    <category term="Centos7" scheme="https://yizhenfeng2016.github.io/tags/Centos7/"/>
     
   </entry>
   
@@ -382,9 +382,9 @@
     <category term="工具篇" scheme="https://yizhenfeng2016.github.io/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
     
     
-    <category term="Chrome 插件" scheme="https://yizhenfeng2016.github.io/tags/Chrome-%E6%8F%92%E4%BB%B6/"/>
-    
     <category term="Header Editor" scheme="https://yizhenfeng2016.github.io/tags/Header-Editor/"/>
+    
+    <category term="Chrome 插件" scheme="https://yizhenfeng2016.github.io/tags/Chrome-%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
