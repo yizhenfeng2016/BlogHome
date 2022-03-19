@@ -155,9 +155,9 @@
       
         <tags>
             
-            <tag> network </tag>
-            
             <tag> Centos7 </tag>
+            
+            <tag> network </tag>
             
         </tags>
       
@@ -290,9 +290,9 @@
       
         <tags>
             
-            <tag> Centos7 </tag>
-            
             <tag> Redis </tag>
+            
+            <tag> Centos7 </tag>
             
         </tags>
       
