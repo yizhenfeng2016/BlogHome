@@ -138,9 +138,9 @@
     <category term="安全测试" scheme="https://yizhenfeng2016.github.io/categories/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95/"/>
     
     
-    <category term="web漏洞" scheme="https://yizhenfeng2016.github.io/tags/web%E6%BC%8F%E6%B4%9E/"/>
-    
     <category term="CSRF" scheme="https://yizhenfeng2016.github.io/tags/CSRF/"/>
+    
+    <category term="web漏洞" scheme="https://yizhenfeng2016.github.io/tags/web%E6%BC%8F%E6%B4%9E/"/>
     
   </entry>
   
